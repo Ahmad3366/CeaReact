@@ -34,8 +34,8 @@ const App = () => {
       setIsLoading(false)
       setError(null)
     })
-    .catch(err => {
-      setError(err.message)
+    .catch(erro => {
+      setError(erro.message)
       setIsLoading(false)
     })
     
